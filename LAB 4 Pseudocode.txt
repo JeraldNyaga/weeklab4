@@ -1,0 +1,33 @@
+// Melissa Wanja Waitituh 133982 
+//Nicole Ngina 134089 
+//Jerald Wachira Nyaga 131497 
+//Martin Nzau 133964 
+
+// Pseudocode to get the leap year.
+
+
+
+START
+     //Initialize year to be integer
+      int year
+	  
+	  initialize bool leap = true
+	  //assuming all years to be leap unless stated otherwise 
+	  output "enter the year"
+	  
+      input year
+	  //if the year is divisible by 4 then it is a leap  year
+			if (year % 4 == 0)
+			THEN
+			PRINT true
+			 
+			 ELSE 
+			 PRINT false
+			 //output the year and whether it is leap or not
+			PRINT year, leap
+					
+STOP			
+			
+
+ 
+
